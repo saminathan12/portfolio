@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/faff6526a6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="background glow">
+        <img src="./images/WhatsApp Image 2024-05-06 at 7.36.28 PM.jpeg" alt="profile">
+    </div>
+    <div class="container">
+        <nav>
+            <span>S<p>AMINATHAN</p></span>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu( )"></i>
+
+        </nav>
+        <div class="header_text">
+            <p>Full Stack developer</p>
+            <h1>HI!, I'm  <span>Saminathan</span><br>from Chennai</h1>
+        </div>
+    </div>
+</div>
+<!-- ______________about_____________ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./images/WhatsApp Image 2024-05-07 at 2.03.17 PM.jpeg" alt="me">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, consequatur modi ducimus nemo in alias esse, laudantium vitae inventore, explicabo voluptatem molestias. Eos voluptas placeat ducimus nesciunt ipsam incidunt magnam porro blanditiis magni deserunt esse tenetur similique, facilis mollitia eveniet. Vero illum provident aliquid delectus dolorem quidem eaque itaque molestiae!
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experince</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Full Stack</span><br>Desigining Web/app interface</li>
+                        <li><span>FrontEnd developer</span><br>HTML,CSS,JAVASCRIPT</li>
+                        <li><span>BackEnd developer</span><br>Using PHP</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Fresher</span><br>i'am Fresher</li>
+                        <li><span>medical field</span><br>In medical field i'have 2yr experience in covid duration</li>
+                        <li><span>MFI finiance field</span><br>resently join for finiance filed..I worked with just 7month..and i'am reliving REASON:I intersted coding language..and resent finish my course of full stack developer from edyoda</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2018</span><br>SSLC in Kalyanam Sundaram Higher Secondary School PERCENTAGE 78.4%</li>
+                        <li><span>2020</span><br>HSC in Kalyanam Sundaram Higher Secondary School PERCENTAGE 66.17%</li>
+                        <li><span>2020-2023</span><br>Bsc Computer Science in Periyar Maniammai Institude of Science And Technology</li>
+                        <li><span>2023-2024</span><br>Full Stack Developer From Edyoda University 6month Course</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- _______________________services__________________ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quas, delectus accusantium recusandae perspiciatis ea voluptas vitae ipsam pariatur totam!</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quas, delectus accusantium recusandae perspiciatis ea voluptas vitae ipsam pariatur totam!</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-google-play"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quas, delectus accusantium recusandae perspiciatis ea voluptas vitae ipsam pariatur totam!</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- _________________portfolio________________ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/The Difference between Web Designer, Web Developer, and Web Programmer.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/360_F_498943157_fhn9lPRGBlYtLXN8CbT4FsbtFc4thsYP.jpg" alt="">
+                <div class="layer">
+                    <h3>Bussiness website</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/download.jfif" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ______________contact____________ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sn076240@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>822002413</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/saminathan.donsami.9?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/deepak_dharsan?igsh=MWkwM2RjMWEyM3dxYQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=918220024313" target=" "><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a href="./images/resume saminathan.G (3).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="sumit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Reserved @saminathan.<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+<script src="portfolio.js"></script>
+</body>
+</html>
